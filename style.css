@@ -24,9 +24,10 @@ main {
     justify-content: center;
     overflow-x: hidden;
 }
-
+/*Estilizacion de tarjetas/contenedores*/
 .tarjeta {
     margin: 5%;
+    overflow-x: hidden;
 }
 
 .tarjeta1 {
@@ -38,11 +39,12 @@ main {
     text-decoration-color: rgb(255, 255, 255);
 }
 
+
 .items li {
     background-color: #72003F;
 }
 
-
+/*Sidebar*/
 aside {
     grid-area: aside;
     background-color: rgb(114, 0, 63);
@@ -52,12 +54,6 @@ aside {
     justify-content: center;
     width: 240px;
     
-}
-
-
-.sidebar {
-    position: fixed;
-    width: 240px;
 }
 
 .nombre {
@@ -83,7 +79,7 @@ ul {
     list-style: none;
     padding: 0 15px;
 }
-
+/*Botones sidebar*/
 #navegador li{
     display: flex;
     align-items: center;
@@ -103,111 +99,116 @@ ul {
     border-radius: 100px;
     font-size:x-large;
     text-decoration: none;
+    transition: color 0.2s ease, font-size 0.2s ease;
 }
 
 #navegador li a:hover {
     background-color: rgb(68, 0, 37);
     color: rgb(255, 69, 208);
+    font-size: xx-large;
 }
+/*Boton Info&Precios visto en la seccion "Terminos y Condiciones"*/
+#navegador2 li{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    bottom: -15px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#navegador2 li a {
+    padding: 10px 20px 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: #ff00c859;
+    border: 1px solid rgb(231, 0, 108);
+    border-radius: 100px;
+    font-size:large;
+    text-decoration: none;
+    transition: color 0.2s ease, font-size 0.2s ease;
+}
+
+#navegador2 li a:hover {
+    background-color: rgb(68, 0, 37);
+    color: rgb(255, 69, 208);
+    font-size: x-large;
+}
+/*Botones redes sociales*/
+#navegador3 li{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    bottom: -15px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#navegador3 li a {
+    padding: 10px 20px 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: #ff00c859;
+    border: 1px solid rgb(231, 0, 108);
+    border-radius: 100px;
+    font-size: medium;
+    text-decoration: none;
+    transition: color 0.2s ease, font-size 0.2s ease;
+}
+
+#navegador3 li a:hover {
+    background-color: rgb(68, 0, 37);
+    color: rgb(255, 69, 208);
+    font-size: large;
+}
+
 
 @media (max-width: 768px) {
-	.sidebar {
-        position: fixed;
-        width: 600px;
-        height: 200px;
-        left: 50%;
-        top: 0%;
-
-	}
-
-    .tarjeta {
-        margin: 10%;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        bottom: -110px
+    #navegador3 li {
+         display: flex;
+         flex-direction: column;
     }
 
-    .ajuste {
-        margin: 1%;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        bottom: -110px
+    #navegador3 li a {
+        margin-top: 9px;
     }
 
-    .ajuste2 {
-        margin: 10%;
-        display: flex;
-        justify-content: center;
-        position: relative;
-    }
-
-    .ajuste3 {
-        margin: 10%;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        top: -100px;
-    }
-
-    .ajuste4 {
-        margin: 10%;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        top: -150px;
-    }
-
-
-}
-
-@media (max-width: 1024px) {
-	.sidebar {
-		position: fixed;
-		bottom: 10;
-		left: 0;
-		width: 100%;
-		max-width: 250px;
-	}
-
-    .tarjeta {
-        margin: 10%;
-        display: flex;
-        justify-content: center;
+    aside {
+        width: 150px;
 
     }
 
-    .ajuste {
-        margin: 1%;
-        display: flex;
-        justify-content: center;
+    .usuarioimg {
         position: relative;
-
+        left: -10px;
+        width: 135px;
+        height: 135px;
     }
 
-    .ajuste2 {
-        margin: 10%;
-        display: flex;
-        justify-content: center;
+    .nombre {
+        font-size: 30px;
+        text-align: center;
         position: relative;
-        top: 400px;
+        left: -5px;
+        bottom: -15px;
+        color: #ffffff;
     }
 
-    .ajuste3 {
-        margin: 10%;
+    #navegador li{
         display: flex;
-        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px 0;
         position: relative;
-        top: -100px;
+        left: -12px;
+        bottom: -15px;  
+        cursor: pointer;
+        justify-content: center;
     }
-
-    .ajuste4 {
-        margin: 10%;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        top: -150px;
+    
+    #navegador li a {
+        font-size: large;
     }
 }
-
