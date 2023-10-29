@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Patrick+Hand&display=swap');
+
 * {
     font-family: 'Concert One', cursive;
     font-family: 'Patrick Hand', cursive;
@@ -8,9 +10,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-body {
     display: grid;
     grid-template-areas: 
     "aside main main main main main main main main main main main main main main main main main main main main main main main main main main main";
@@ -42,6 +41,36 @@ main {
 
 .items li {
     background-color: #72003F;
+}
+
+#bordeRosa {
+    border: 1px solid rgb(231, 0, 108);
+}
+
+#tituloTarjeta {
+    font-size: xx-large; 
+    text-decoration: none; 
+    background-color: #72003F;
+}
+
+#subtituloTarjeta {
+    background-color: #72003F; font-size: large;
+}
+
+#footerTarjeta {
+    background-color: #72003F;
+}
+
+#lineaBlanca {
+    border-color: rgb(255, 255, 255);
+}
+
+#listaRosa {
+    color: rgba(255, 88, 166, 0.87);
+}
+
+#colorNota {
+    color: #A31D5C;
 }
 
 /*Sidebar*/
