@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoaViiole - Contacto</title>
+    <link rel="stylesheet" href="style.css"/> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+</head>
+<body>
+
+    <main>
+      <div class="tarjeta">
+        <div class="card text-center tarjeta1" id="bordeRosa">
+            <div class="card-header text-light" id="tituloTarjeta">
+                &#128013; Contacto &#128013;
+            </div>
+            <div class="card-body tarjeta2">
+              <h5 class="card-title text-light">
+                ¿Tenes alguna duda o queres comisionarme? Cualquier cosa que necesites, podés contactar conmigo
+              </h5>
+              <p class="card-text text-light">
+                <form class="card-text text-light">
+                    <fieldset> 
+                        <label for="nombre">Nombre: </label>
+                        <input required type="text" name="nombre"/> 
+                        &nbsp;&nbsp;
+                        <label for="email">Correo electronico: </label>
+                        <input required type="email" name="email"/> 
+                        &nbsp;&nbsp;
+                        <label for="email">Asunto: </label>
+                        <input required type="text" name="asunto"/> 
+                        <hr id="lineaBlanca">
+                        <label for="text">Comentarios: </label>
+                        <br>
+                        <textarea required></textarea>
+                        <hr id="lineaBlanca">
+                        <label for="text">¿Me contactaste previamente por alguna de estas redes?</label>
+                          <p>
+                           <input type="checkbox" class="mycheck" id="mycheck" value="1"/> <label for="twitter">Twitter</label></span>&nbsp;&nbsp;&nbsp;
+                           <input type="checkbox" id="ig" name="ig" value="1"/> <label for="ig">Instagram</label>&nbsp;&nbsp;&nbsp;
+                           <input type="checkbox" id="none" name="none" value="1"/> <label for="none">No me contacté antes</label>       
+                          </p> 
+                        <input type="submit" value="Enviar"/> <input type="reset" value="Resetear" />
+                    </fieldset>
+                </form>
+              </p>
+            </div>
+            <div class="card-footer text-light" id="footerTarjeta">
+                &#9829; &#9830; &#9824; &#9827;
+            </div>
+          </div>
+      </div>
+    </main>
+<!--Sidebar-->
+    <aside>
+      <ul class="nav flex-column justify-content-center">
+        <li class="nav-item">
+          <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/67937422_iMM.jpg" class="usuarioimg">
+          <h2 class="nombre">LoaViiole</h2>
+        </li>
+          <ul id="navegador">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tos.html">Terminos y Conidiciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comisiones.html">Comisiones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+      </ul>
+    </aside>
+<!--Fin Sidebar-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>

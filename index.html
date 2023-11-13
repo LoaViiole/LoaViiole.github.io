@@ -4,31 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LoaViiole - Inicio</title>
+    <meta name="keywords" content="Blog, Dibujos, Dibujante, Argentina, Buenos Aires, Comisiones, Arte">
     <link rel="stylesheet" href="style.css"/> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
 </head>
-<body>
-
+<body> 
     <main>
       <div class="tarjeta">
         <div class="card text-center tarjeta1" id="bordeRosa">
             <div class="card-header text-light" id="tituloTarjeta">
-              ¡Bienvenidxs! - Welcome!
+              &#128013; ¡Bienvenidxs! - Welcome! &#128013;
             </div>
             <div class="card-body tarjeta2">
               <h5 class="card-title text-light">
-                Titulo(...)
+                &#9829; &#9830; &#9824; &#9827;
               </h5>
               <p class="card-text text-light">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan augue sit amet metus aliquet, id fringilla ante fermentum. Aliquam scelerisque id turpis eget varius. Sed eros elit, tempus vitae maximus nec, accumsan non urna. Aenean euismod viverra erat in ultrices. Fusce id nisl et urna semper sollicitudin ut quis neque. Cras in finibus magna. Morbi dignissim erat a bibendum volutpat. Proin tempus turpis a commodo tempus. Integer mi augue, euismod et lacus vel, sodales facilisis dui.
-
-                Fusce mollis ipsum lacus, id placerat enim lacinia eget. Phasellus hendrerit euismod massa, eu lobortis nibh eleifend eu. Mauris eget nibh consequat, pulvinar dolor eu, aliquet libero. Sed nec tempor neque. Integer non leo at est rutrum facilisis. Curabitur et lobortis massa. Nullam massa lacus, semper in blandit ut, placerat id dolor. Duis et scelerisque mi. Proin porttitor laoreet nunc. Nulla ac ornare quam, at tempor risus.
-
-                Phasellus non nulla eu odio condimentum finibus a eu diam. Proin viverra tempus felis, at semper arcu ullamcorper id. Cras sapien odio, dictum at eros sit amet, dignissim vestibulum metus. Proin dictum erat at luctus egestas. Integer ut diam malesuada arcu accumsan mattis nec sit amet lectus. Integer auctor massa augue, et tincidunt sapien fermentum eu. Nam iaculis, nisi eget egestas gravida, ligula risus luctus turpis, ut efficitur urna nunc lacinia erat.
-
-                Suspendisse fermentum ac dui non volutpat. Vivamus eu aliquam quam. Nullam quis suscipit dui. Fusce euismod mi urna, eget venenatis nisi suscipit a. Donec ultricies malesuada massa, fringilla tristique massa cursus et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus vitae ex augue. Donec mollis ipsum posuere, congue lectus vel, pretium elit. Duis purus erat, volutpat non nibh sed, maximus interdum ipsum.</p>
+                ¡Bienvenidx a mi primera pagina! Mi nombre es Violeta aunque mi usuario es LoaViiole, puedes decirme simplemente Viole &#128522;
+              Soy una dibujante de Argentina, Buenos Aires. Mi arte varia entre <span class="linkOcs" id="liveToastBtn">OCs (Original Characters)</span>, FanArt y comisiones. Tengo 21 años, pertenezco a fandoms como The Binding of Isaac, OFF (RPG), Homestuck y fandoms hispanos de streamers (GTA RP y Minecraft series).
+              Esta página está en progreso, pero muchas gracias por visitarla &#60;3, si te interesa, te invito a que te pasees por mis redes sociales o las distintas secciones de esta pagina, asi podrás conocer mas de mi trabajo &#128522;
+              
+              Me gustan las serpientes :D</p>
+              <hr id="lineaBlanca">
+              <p class="card-text text-light"> Te dejo aqui mi ultimo SpeedPaint, este es un dibujo antiguo, asi que te recomiendo ver mi <a href="comisiones.html">arte mas reciente</a> para estar al tanto de mi estilo actual!
+              <p class="card-text text-light">
+                <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/PsDzAfaS-kA" title="♠ Speedpaint 04 ♠ Azazel Redraw [Fantroll]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </p>
+              </p>
+              <hr id="lineaBlanca">
+              <p class="card-text text-light">Estas son mis redes sociales! Puedes utilizarlas para ver mi trabajo o contactarme (Tambien puedes usar el <a href="contacto.html">Formulario de Contacto</a>)</p>
               <ul id="navegador3">
                 <li class="nav-item">
                   <a href="https://twitter.com/loaviiole" class="btn btn-primary" id="bordeRosa"><i class="bi-twitter"> Twitter</i></a> 
@@ -39,11 +45,27 @@
               </ul>
             </div>
             <div class="card-footer text-light" id="footerTarjeta">
-              2 days ago
+              &#9829; &#9830; &#9824; &#9827;
             </div>
           </div>
       </div>
     </main>
+
+<!--Popup-->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast bg-black bg-opacity-75 text-light" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-body">
+          ¡Hey! ¿Seguro que quieres visitar la pagina externa de mis personajes?
+          <div class="mt-2 pt-2 border-top">
+            <button type="button" class="btn btn-primary btn-sm" id="botonPopup"><a class="text-light" href="https://toyhou.se/LoaViiole">Ir a la pagina</a></button>
+            <button type="button" class="btn btn-secondary btn-sm" id="botonPopup2" data-bs-dismiss="toast">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    
 <!--Sidebar-->
     <aside>
       <ul class="nav flex-column justify-content-center">
@@ -60,6 +82,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="comisiones.html">Comisiones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
           </ul>
       </ul>

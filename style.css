@@ -73,6 +73,11 @@ main {
     color: #A31D5C;
 }
 
+.linkOcs {
+    color: rgb(231, 0, 108);
+    cursor: pointer;
+}
+
 /*Sidebar*/
 aside {
     grid-area: aside;
@@ -193,6 +198,73 @@ ul {
     font-size: large;
 }
 
+/*Botones Popup*/
+#botonPopup {
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(253, 38, 199);
+    border: 1px solid rgb(231, 0, 108);
+    border-radius: 100px;
+    font-size: medium;
+    text-decoration: none;
+}
+
+#botonPopup2 {
+    padding: 5px 10px 5px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 0, 63);
+    border: 1px solid rgb(231, 0, 108);
+    border-radius: 100px;
+    font-size: medium;
+    text-decoration: none;
+}
+
+
+/*Color links*/
+a:link {
+    color: rgb(231, 0, 108);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: rgb(231, 0, 108);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* Formulario */
+input {
+    background: #ff00c859;
+    border: 1px solid rgb(231, 0, 108);
+    border-radius: 10px;
+    accent-color: rgb(231, 0, 108);
+    color:#ffffff
+}
+
+input[type="submit"] {
+    background-color: #ff00c859;
+    border: 1px solid rgb(231, 0, 108);
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+input[type="reset"] {
+    background-color: #ff00c859;
+    border: 1px solid rgb(231, 0, 108);
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+
+textarea {
+    background: #ff00c859;
+    border: 1px solid rgb(231, 0, 108); 
+    border-radius: 10px;
+    color:#ffffff;
+    width: 50%;
+}
+
+/*Responsive*/
 
 @media (max-width: 768px) {
     #navegador3 li {
@@ -239,5 +311,10 @@ ul {
     
     #navegador li a {
         font-size: large;
+    }
+
+    #video {
+        width: 320px;
+        height: 180px;
     }
 }
